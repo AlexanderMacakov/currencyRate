@@ -12,7 +12,7 @@ cd currencyRate
 ```
 Open `http://localhost:8080/`
 
-###Run Docker 
+### Run Docker 
 ```bash
 .\gradlew build
 docker build -t currencyrate:1.0.0 .
