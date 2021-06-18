@@ -10,6 +10,7 @@ git clone https://github.com/AlexanderMacakov/currencyRate.git
 cd currencyRate
 .\gradlew bootRun
 ```
+Open `http://localhost:8080/`
 
 ###Run Docker 
 ```bash
@@ -17,5 +18,6 @@ cd currencyRate
 docker build -t currencyrate:1.0.0 .
 docker run -d -p 8080:8080 -t currencyrate:1.0.0
 ```
+Open `http://localhost:8080/`
 
 
