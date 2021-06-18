@@ -1,0 +1,24 @@
+# url list
+openExchangeRatesUrl: https://openexchangerates.org/api/historical/
+giphyUrl: https://api.giphy.com/v1/gifs/random
+
+# key list
+openExchangeRatesKey: a1db762384fb4a4582c7a8a41a29e434
+giphyKey: ldfPIzkgsBH7Rdfli7pajZ8flFs7bZep
+
+baseCurrency: USD
+
+spring:
+  application:
+    name: currencyRate
+
+management:
+  management:
+  endpoint:
+    health:
+      show-details: always
+
+eureka:
+  client:
+    service-url:
+      default-zone: http://localhost:8761/eureka/
